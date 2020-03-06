@@ -1,3 +1,59 @@
 body {
     padding-top: 5rem;
 }
+
+/* Profile CSS */
+#profile-body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 40rem;
+    margin: auto;
+    display: block;
+}
+
+#bio-top {
+    background-image: linear-gradient(#4fb231, #b6ef75, green);
+    border-radius: .3rem .3rem 0 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#profile-pic {
+    max-height: 20rem;
+    width: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile-text {
+    margin-top: 1.1rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+
+#bio-bottom {
+    padding: 0.5rem 2rem;
+    padding-bottom: 1.5rem;
+    color: grey;
+}
+
+#username {
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding: 0;
+    background-color: white;
+}
+
+.stats-top {
+    font-weight: bold;
+    color: black;
+}
+
+#follow-btn {
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+    padding: .35rem 2.0rem;
+    border-radius: .45rem;
+}
